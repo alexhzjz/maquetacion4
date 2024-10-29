@@ -1,0 +1,25 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home header{
+    height: 150px;
+
+}
+.home h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    color:black ;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-image: url(../assets/imagenhome.png);
+    height:80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
