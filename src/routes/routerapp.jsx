@@ -1,7 +1,7 @@
 import Home from "../pages/Home";
 import Login from "../pages/auth/Login";
 import Dashboard from "../pages/Dashboard";
-import register from "../pages/auth/register"
+import Register from "../pages/auth/Register";
 
 export let rutas = [
     {
@@ -15,11 +15,11 @@ export let rutas = [
     {
         path: "/login",
         element: <Login />
-        
+
     },
     {
         path: "/Registrarse",
-        element: <register />
-        
+        element: <Register />
+
     }
 ]

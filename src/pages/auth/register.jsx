@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './register.css'
+import './Register.css'
 
 function register() {
   const [usuario, setUsuario] = useState('');
@@ -40,4 +40,4 @@ function register() {
   );
 }
 
-export default register;
+export default Register;
